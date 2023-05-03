@@ -15,7 +15,7 @@
 
 Native Nodejs client for p0f - passive OS fingerprinting tool
 
-Supports both most known version of p0f:
+Supports both most known version of p0f utility:
 
 - https://github.com/p0f/p0f
 - https://github.com/ValdikSS/p0f-mtu - with MTU detection
@@ -23,7 +23,7 @@ Supports both most known version of p0f:
 
 Other packages with similar functionality:
 
-- https://www.npmjs.com/package/p0fclient-wrapper - Nodejs wrapper for `p0f-client` binary which comes with p0f.
+- https://www.npmjs.com/package/p0fclient-wrapper - Nodejs wrapper for `p0f-client` binary which comes with `p0f`.
 
 
 If you have different needs regarding the functionality, please add a [feature request](https://github.com/alykoshin/gmail-send/issues).
