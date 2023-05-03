@@ -1,0 +1,49 @@
+{
+  "name": "p0f-client",
+  "version": "0.0.1",
+  "description": "Native client for p0f",
+  "main": "src/index.ts",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "types": "./types/index.d.ts"
+    }
+  },
+  "scripts": {
+    "start": "nps",
+    "test": "nps test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alykoshin/node-p0f-client.git"
+  },
+  "keywords": [
+    "gmail",
+    "gmailer",
+    "email",
+    "smtp"
+  ],
+  "author": "Alexander Lykoshin <alykoshin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alykoshin/node-p0f-client/issues"
+  },
+  "homepage": "https://github.com/alykoshin/node-p0f-client",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "ipaddr.js": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "eslint": "^8.39.0",
+    "jshint": "^2.13.6",
+    "jsinspect": "^0.12.7",
+    "npm-check-updates": "^16.10.9",
+    "nps": "^5.10.0",
+    "nps-utils": "^1.7.0",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
+}

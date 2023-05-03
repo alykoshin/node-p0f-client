@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "nodenext",
+    "target": "es6",
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "noErrorTruncation": true,
+    "strict": true,
+//    "noUnusedLocals": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "outDir": "dist"
+  },
+  // It must include everything that Rollup will encounter,
+  // and preferably nothing else in order not to compile excess files
+  "include": [
+    "src/index.ts",
+    "src/**/*.d.ts",
+    "resources/content_blocking/selectors_tester.ts"
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2021"
+    }
+  }
+}
